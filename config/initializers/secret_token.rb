@@ -9,4 +9,4 @@
 
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
-Mosseryco::Application.config.secret_key_base = '90c9af9b5a65a3ff1525051aef28f9340f4cef4dcaf61f32783995c51a348ee645411e7020b3f19c5ac03cc67a1890c051c92ed42945b0d63b13578f426f5955'
+Deploystore::Application.config.secret_token = ENV['SECRET_TOKEN']
